@@ -60,7 +60,7 @@ int main() {
   //cout << err << *e << endl;					  will throw an error as ptr "*e" is not declined
 	cout << "11.  " << &e << endl;				//prints the address of var "e" which is different from ptr "d"'s address
 	cout << "12.  " << f << endl;				//prints the value of ref "&f" which is the same as the ptr "d" holds
-  //cout << err << *f << endl;                    will throw an error as ptr "*f" is not declined
+  //cout << err << *f << endl;                                    will throw an error as ptr "*f" is not declined
 	cout << "13.  " << &f << endl;				//prints the address of ref "&f" which is the same as ptr "d"'s address
 	cout << "14.  " << *&d << endl;				//prints the address of ref "&d" which is the same as ptr "d"'s address
 	cout << "15.  " << &*d << endl;				//prints the address of ptr "*d" which is the same as ref "d"'s address
